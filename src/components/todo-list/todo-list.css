@@ -1,0 +1,25 @@
+.task-wrapper {
+  width: 100%;
+  margin: 26px 0;
+}
+
+.task__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1.5px solid rgb(167, 161, 161);
+  padding: 12px 0;
+}
+.task__item:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.task__item:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.task__item:not(:first-child) {
+  border-top: none;
+}
+
+

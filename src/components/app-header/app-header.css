@@ -1,0 +1,16 @@
+.header__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 28px;
+}
+
+.title {
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.small-text {
+  font-size: 24px;
+  color: #494949;
+}

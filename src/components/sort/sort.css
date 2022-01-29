@@ -1,0 +1,18 @@
+.sorting-block {
+  display: flex;
+}
+
+.search-panel {
+  padding: 15px;
+  display: block;
+  width: 100%;
+  border: 1.5px solid rgb(167, 161, 161);
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 8px;
+}
+
+.search-panel:focus {
+  border: 1.5px solid rgb(117, 113, 113);
+}

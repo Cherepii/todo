@@ -1,0 +1,21 @@
+.add-wrapper {
+  display: flex;
+}
+
+.add-but {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 14px;
+  border: 1.5px solid rgb(126, 126, 126);
+  border-radius: 5px;;
+  cursor: pointer;
+  color: rgb(126, 126, 126);
+  user-select: none;
+  transition: 0.3s;
+}
+.add-but:hover {
+  background: rgb(177, 176, 176);
+  color: #000;
+}
